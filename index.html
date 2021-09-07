@@ -1,72 +1,59 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Calculator</title>
+  <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
   <style>
-
-    .h:hover{
+    .h:hover {
       background-color: lime;
-      
     }
-    .s:hover{
+
+    .s:hover {
       background-color: yellow;
-      
     }
-
-
   </style>
 </head>
 
 <body>
   <div class="container">
-
-
-   
-<div class="col-lg-4 mx-auto mt-5">
-    <h1 class="text-center">CALCULATOR</h1> 
-    <form action="" class="form-control bg-dark" autocomplete="off">
-       <input type="text" name="ans" id="tot"  class="form-control mt-3 mb-2 fw-bold">
-       <div id="" class="d-flex">
-        <input type="button" value="9" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '9' ">
-        <input type="button" value="8"class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '8' ">
-        <input type="button" value="7"class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '7' ">
-        <input type="button" value="+" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '+' ">
-       </div>
-       <div id="" class="d-flex">
-        <input type="button" value="6" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '6' ">
-        <input type="button" value="5"class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '5' ">
-        <input type="button" value="4"class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '4' ">
-        <input type="button" value="-" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '-' ">
-       </div>
-       <div id="" class="d-flex">
-        <input type="button" value="3" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '3' ">
-        <input type="button" value="2"class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '2' ">
-        <input type="button" value="1"class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '1' ">
-        <input type="button" value="*" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '*' ">
-       </div>
-       <div id="" class="d-flex">
-        <input type="button" value="." class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '.' ">
-        <input type="button" value="0"class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '0' ">
-        <input type="button" value="c"class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value = '' ">
-        <input type="button" value="/"class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '/' ">
-       </div>
-       <input type="button" value="=" class="form-control mt-3 mb-2 s fw-bold " onclick="ans.value = eval(ans.value)" > 
-    </form>
-   
- 
-</div>
-
-
-
-
-</div>
-<h1></h1>
+    <div class="col-lg-4 mx-auto mt-5">
+      <h1 class="text-center">CALCULATOR</h1>
+      <form action="" class="form-control bg-dark" autocomplete="off">
+        <input type="text" name="ans" id="tot" class="form-control mt-3 mb-2 fw-bold">
+        <div id="" class="d-flex">
+          <input type="button" value="9" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '9' ">
+          <input type="button" value="8" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '8' ">
+          <input type="button" value="7" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '7' ">
+          <input type="button" value="+" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '+' ">
+        </div>
+        <div id="" class="d-flex">
+          <input type="button" value="6" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '6' ">
+          <input type="button" value="5" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '5' ">
+          <input type="button" value="4" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '4' ">
+          <input type="button" value="-" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '-' ">
+        </div>
+        <div id="" class="d-flex">
+          <input type="button" value="3" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '3' ">
+          <input type="button" value="2" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '2' ">
+          <input type="button" value="1" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '1' ">
+          <input type="button" value="*" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '*' ">
+        </div>
+        <div id="" class="d-flex">
+          <input type="button" value="." class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '.' ">
+          <input type="button" value="0" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '0' ">
+          <input type="button" value="c" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value = '' ">
+          <input type="button" value="/" class="form-control mt-3 mb-2 me-2 h fw-bold" onclick="ans.value += '/' ">
+        </div>
+        <input type="button" value="=" class="form-control mt-3 mb-2 s fw-bold " onclick="ans.value = eval(ans.value)">
+      </form>
+    </div>
+  </div>
   <script src="script.js"></script>
   <script src="assets/js/jquery.min.js"></script>
 </body>
